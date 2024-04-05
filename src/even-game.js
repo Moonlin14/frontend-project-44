@@ -1,25 +1,36 @@
 import readlineSync from 'readline-sync';
 
 export default () => {
-  greeting();
+  const name = readlineSync.question('May i have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let question = randomNum();
   console.log(`Question: ${question}`);
-  const answer = readlineSync.question('Your answer: ');
-  const isTrue = (question % 2 === 0 && answer === 'yes') || (question % 2 !== 0 && answer === 'no') ? true : false;
-  let truecount = 3;
-  if (truecount === 3) {
-    return `Congratulations, ${name}`;
-  };
+  let answer = readlineSync.question('Your answer: ');
+ 
+  for (let i = 0; i < 3; ++i) {
+    if (answer === 'yes' && question % 2 === 0) {
+      console.log('Correct!');
+      console.log(`Question: ${question = randomNum()}`);
+      answer = readlineSync.question('Your answer: ');
+    } else if (answer === 'no' && question % 2 !== 0) {
+      console.log('Correct!');
+      console.log(`Question: ${question = randomNum()}`);
+      answer = readlineSync.question('Your answer: ');
+  } else if (answer === 'yes' && question % 2 !== 0) {
+    console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
+    console.log(`Let's try again, ${name}!`);
+  }  else if (answer === 'no' && question % 2 === 0) {
+    console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
+    console.log(`Let's try again, ${name}!`);
+  } else if (i === 3) {
+  return console.log(`Congratulations ${name}`);
+};
+};
 };
 
 const randomNum = () => {
-  const randomNum = Math.round(Math.random() * 100);
-  return randomNum;
+  const random = Math.round(Math.random() * 100);
+  return random;
 };
 
-const greeting = () => {
-  const name = readlineSync.question('May i have your name? ');
-  console.log(`Hello, ${name}!`);
-  return name
-};
