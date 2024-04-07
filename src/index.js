@@ -7,7 +7,7 @@ export default (explanation, coll) => {
     console.log(explanation);
     
     for (let i = 1; i <= 3; i += 1) {
-        let [question, correctAnswer] = coll;
+        const [question, correctAnswer] = coll();
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');
         if (userAnswer !== correctAnswer) {
