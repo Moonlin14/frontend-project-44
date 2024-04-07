@@ -6,8 +6,8 @@ export default (explanation, coll) => {
     console.log(`Hello, ${name}!`);
     console.log(explanation);
     
-    for (let i = 0; i <= 3; i += 1) {
-        const [question, correctAnswer] = coll;
+    for (let i = 1; i <= 3; i += 1) {
+        let [question, correctAnswer] = coll;
         console.log(`Question: ${question}`);
         const userAnswer = readlineSync.question('Your answer: ');
         if (userAnswer !== correctAnswer) {
