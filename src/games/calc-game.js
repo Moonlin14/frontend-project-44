@@ -33,7 +33,7 @@ const calcAnswer = (operator, num1, num2) => {
 
 const calc = () => {
   const operator = randomOperator();
-  const num1 = randomNum(70);
+  const num1 = randomNum(30);
   const num2 = randomNum(10);
   const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = calcAnswer(operator, num1, num2);
