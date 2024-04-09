@@ -1,4 +1,4 @@
-import run from './index.js';
+import run from '../index.js';
 
 const explanation = 'Answer "yes" if the number is even, otherwise answer "no".';
 
