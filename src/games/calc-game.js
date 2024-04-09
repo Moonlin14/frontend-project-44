@@ -7,8 +7,14 @@ const randomNum = (num) => {
   return random;
 };
 
+const randomOperator = () => {
+  const operators = ['+', '-', '*'];
+  const random = Math.round(Math.random() * 2);
+  return operators[random];
+};
 const calcAnswer = (operator, num1, num2) => {
   let result;
+
   switch (operator) {
     case '+':
       result = num1 + num2;
@@ -26,8 +32,7 @@ const calcAnswer = (operator, num1, num2) => {
 };
 
 const calc = () => {
-  const operators = ['+', '-', '*'];
-  const operator = operators.randomNum(3);
+  const operator = randomOperator();
   const num1 = randomNum(70);
   const num2 = randomNum(10);
   const question = `${num1} ${operator} ${num2}`;

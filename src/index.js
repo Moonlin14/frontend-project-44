@@ -16,5 +16,5 @@ export default (explanation, coll) => {
     console.log('Correct');
   }
 
-  console.log(`Congratulations, ${name}!`);
+  return console.log(`Congratulations, ${name}!`);
 };
