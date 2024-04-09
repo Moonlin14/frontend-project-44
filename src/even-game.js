@@ -15,5 +15,5 @@ const even = () => {
 };
 
 export default () => {
-  run(explanation, even);
+  run(explanation, even());
 };
