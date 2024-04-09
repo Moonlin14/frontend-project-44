@@ -1,4 +1,4 @@
-import run from '../src/index.js';
+import run from './index.js';
 
 const explanation = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -6,7 +6,6 @@ const randomNum = () => {
   const random = Math.round(Math.random() * 100);
   return random;
 };
-
 
 const even = () => {
   const number = randomNum();
