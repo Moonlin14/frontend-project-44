@@ -7,7 +7,9 @@
 # Установка 
 `
 make install
+`
 
+`
 npm link
 `
 ## Игра: "Проверка на четность"
@@ -23,7 +25,9 @@ or
 `
 make brain-even
 `
-![image.png](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
+
+![asciinema brain-even](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image.png)
+![asciinema brain-even](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
 ## Игра: "Калькулятор"
 ### Описание игры:
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
@@ -37,7 +41,9 @@ or
 `
 make brain-calc
 `
-![image-1.png](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
+
+![asciinema brain-calc](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-1.png)
+![asciinema brain-calc](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
 ## Игра: "НОД"
 ### Описание игры:
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
@@ -51,7 +57,9 @@ or
 `
 make brain-gsd
 `
-![image-2.png](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy)
+
+![asciinema brain-gsd](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-2.png)
+![asciinema brain-gsd](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy)
 ## Игра: "Арифметическая прогрессия"
 ### Описание игры:
 Пользователю показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
@@ -65,7 +73,9 @@ or
 `
 make brain-progression
 `
-![image-3.png](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg)
+
+![asciinema brain-progression](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-3.png)
+![asciinema brain-progression](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg)
 ## Игра: "Простое ли число?"
 ### Описание игры:
 Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если не простое.
@@ -79,4 +89,6 @@ or
 `
 make brain-prime
 `
-![image-4.png](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8)
+
+![asciinema brain-prime](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-4.png)
+![asciinema brain-prime](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8)
