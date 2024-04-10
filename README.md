@@ -89,4 +89,4 @@ or
 make brain-prime
 ```
 
-[![asciinema brain-prime](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8.svg)](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8.svg)
+[![asciicast](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8.svg)](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8.svg)
