@@ -25,8 +25,7 @@ or
 make brain-even
 ```
 
-![asciinema brain-even](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image.png)
-![asciinema brain-even](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
+[![asciicast](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
 ## Игра: "Калькулятор"
 ### Описание игры:
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
@@ -41,8 +40,7 @@ or
 make brain-calc
 ```
 
-![asciinema brain-calc](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-1.png)
-![asciinema brain-calc](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
+[![asciinema brain-calc](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz.svg)](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
 ## Игра: "НОД"
 ### Описание игры:
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
@@ -57,8 +55,8 @@ or
 make brain-gsd
 ```
 
-![asciinema brain-gsd](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-2.png)
-![asciinema brain-gsd](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy)
+
+[![asciicast](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy.svg)](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy)
 ## Игра: "Арифметическая прогрессия"
 ### Описание игры:
 Пользователю показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
@@ -73,8 +71,7 @@ or
 make brain-progression
 ```
 
-![asciinema brain-progression](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-3.png)
-![asciinema brain-progression](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg)
+[![asciicast](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg.svg)](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg)
 ## Игра: "Простое ли число?"
 ### Описание игры:
 Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если не простое.
