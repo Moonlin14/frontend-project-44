@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import gsd from '../src/games/gsd-game.js'
+import gsd from '../src/games/gsd-game.js';
 
 gsd();
