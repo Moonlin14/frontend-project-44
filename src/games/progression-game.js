@@ -14,7 +14,7 @@ const randomColl = () => {
   const space = randomNum(10);
   for (let i = num2; i < num2 * 11; i += num2) {
     coll.push(num1 + i);
-  };
+  }
   const correctAnswer = coll[space];
   coll[space] = '..';
   return [correctAnswer, coll];

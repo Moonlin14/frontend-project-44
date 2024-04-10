@@ -27,9 +27,9 @@ const lowestDivision = (num1, num2) => {
     for (const value2 of coll2) {
       if (value1 === value2) {
         coll3.push(value1);
-      };
-    };
-  };
+      }
+    }
+  }
 
   return coll3[coll3.length - 1];
 };
