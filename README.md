@@ -25,7 +25,7 @@ or
 make brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
+[![asciicast](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS.svg)](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
 ## Игра: "Калькулятор"
 ### Описание игры:
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
