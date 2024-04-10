@@ -90,5 +90,5 @@ or
 make brain-prime
 `
 
-![asciinema brain-prime](https://github.com/Moonlin14/frontend-project-44/blob/main/asciinema%20scrinshots/image-4.png)
+![asciinema brain-prime](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8)
 ![asciinema brain-prime](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8)
