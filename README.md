@@ -7,6 +7,7 @@
 # Установка 
 `
 make install
+
 npm link
 `
 ## Игра: "Проверка на четность"
@@ -22,7 +23,7 @@ or
 `
 make brain-even
 `
-![https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS](image.png)
+![image.png](https://asciinema.org/a/S7BQXQbtd7XAguOBHucVIgZBS)
 ## Игра: "Калькулятор"
 ### Описание игры:
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
@@ -36,7 +37,7 @@ or
 `
 make brain-calc
 `
-![https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz](image-1.png)
+![image-1.png](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
 ## Игра: "НОД"
 ### Описание игры:
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
@@ -50,7 +51,7 @@ or
 `
 make brain-gsd
 `
-![https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy](image-2.png)
+![image-2.png](https://asciinema.org/a/Ej3ocFbt0E6AOK23msQ1xUkHy)
 ## Игра: "Арифметическая прогрессия"
 ### Описание игры:
 Пользователю показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
@@ -64,7 +65,7 @@ or
 `
 make brain-progression
 `
-![https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg](image-3.png)
+![image-3.png](https://asciinema.org/a/2YHWUbIJ3TvC0S9sr3EaUm1kg)
 ## Игра: "Простое ли число?"
 ### Описание игры:
 Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если не простое.
@@ -78,4 +79,4 @@ or
 `
 make brain-prime
 `
-![https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8](image-4.png)
+![image-4.png](https://asciinema.org/a/pkatDCxJ4rEWN0RX0myMlGyH8)
