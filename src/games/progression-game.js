@@ -9,9 +9,9 @@ const randomNum = (num) => {
 
 const randomColl = () => {
   const coll = [];
-  const num1 = randomNum(20);
+  const num1 = randomNum(100);
   const num2 = randomNum(5);
-  const space = randomNum(10);
+  const space = randomNum(9);
   for (let i = num2; i < num2 * 11; i += num2) {
     coll.push(num1 + i);
   }
