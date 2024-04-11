@@ -8,7 +8,7 @@ const randomColl = () => {
   const coll = [];
   const num1 = randomNum(1, 30);
   const num2 = randomNum(1, 5);
-  const space = randomNum(1, 10);
+  const space = randomNum(1, 9);
   for (let i = num2; i < num2 * 11; i += num2) {
     coll.push(num1 + i);
   }
