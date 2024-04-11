@@ -40,19 +40,19 @@ or
 make brain-calc
 ```
 
-[![asciinema brain-calc](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz.svg)](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
+[![asciicast](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz.svg)](https://asciinema.org/a/Oqmdp0wnhPasVSdvRRYWYY5fz)
 ## Игра: "НОД"
 ### Описание игры:
 Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 ### Запуск игры:
 ```
-brain-gsd
+brain-gcd
 ```
 
 or
 
 ```
-make brain-gsd
+make brain-gcd
 ```
 
 

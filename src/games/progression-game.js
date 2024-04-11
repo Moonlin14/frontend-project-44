@@ -17,7 +17,8 @@ const randomColl = () => {
   }
   const correctAnswer = coll[space];
   coll[space] = '..';
-  return [correctAnswer, coll];
+  const res = coll.join(' ');
+  return [correctAnswer, res];
 };
 
 const progression = () => {
