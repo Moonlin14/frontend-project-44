@@ -19,7 +19,7 @@ const primeCheck = (num) => {
 
 const prime = () => {
   const num = randomNum(50);
-  const question = num.toString();
+  const question = `${num}`;
   const correctAnswer = primeCheck(num);
   return [question, correctAnswer];
 };

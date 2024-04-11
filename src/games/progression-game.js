@@ -9,7 +9,7 @@ const randomNum = (num) => {
 
 const randomColl = () => {
   const coll = [];
-  const num1 = randomNum(100);
+  const num1 = randomNum(30);
   const num2 = randomNum(5);
   const space = randomNum(9);
   for (let i = num2; i < num2 * 11; i += num2) {
@@ -23,7 +23,7 @@ const randomColl = () => {
 const progression = () => {
   const [answer, coll] = randomColl();
   const correctAnswer = `${answer}`;
-  const question = `${coll}`;
+  const question = coll;
   return [question, correctAnswer];
 };
 
