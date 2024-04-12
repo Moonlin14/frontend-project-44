@@ -3,36 +3,30 @@ import getRandomNum from '../math.js';
 
 const explanation = 'What is the result of the expression?';
 
-const randomOperator = () => {
+const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
-  const random = Math.round(Math.random() * 2);
+  const random = Math.round(Math.random() * operators.length - 1);
   return operators[random];
 };
-const calcAnswer = (operator, num1, num2) => {
-  let result;
-
+const calculateAnswer = (operator, num1, num2) => {
   switch (operator) {
     case '+':
-      result = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      result = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      result = num1 * num2;
-      break;
+      return num1 * num2;
     default:
-      return undefined;
+      return `Unknown operator: '${operator}'!`;
   }
-  return `${result}`;
 };
 
 const calc = () => {
-  const operator = randomOperator();
+  const operator = getRandomOperator();
   const num1 = getRandomNum(1, 30);
   const num2 = getRandomNum(1, 10);
   const question = `${num1} ${operator} ${num2}`;
-  const correctAnswer = calcAnswer(operator, num1, num2);
+  const correctAnswer = calculateAnswer(operator, num1, num2);
   return [question, correctAnswer];
 };
 
