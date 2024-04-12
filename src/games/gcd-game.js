@@ -1,8 +1,7 @@
 import run from '../index.js';
+import getRandomNum from '../math.js';
 
 const explanation = 'Find the greatest common divisor of given numbers.';
-
-const randomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const lowestDivision = (num1, num2) => {
   const coll1 = [];
@@ -32,8 +31,8 @@ const lowestDivision = (num1, num2) => {
 };
 
 const gcd = () => {
-  const num1 = randomNum(1, 30);
-  const num2 = randomNum(1, 30);
+  const num1 = getRandomNum(1, 30);
+  const num2 = getRandomNum(1, 30);
   const question = `${num1} ${num2}`;
   const correctAnswer = `${lowestDivision(num1, num2)}`;
   return [question, correctAnswer];

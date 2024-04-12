@@ -1,8 +1,7 @@
 import run from '../index.js';
+import getRandomNum from '../math.js';
 
 const explanation = 'What is the result of the expression?';
-
-const randomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const randomOperator = () => {
   const operators = ['+', '-', '*'];
@@ -30,8 +29,8 @@ const calcAnswer = (operator, num1, num2) => {
 
 const calc = () => {
   const operator = randomOperator();
-  const num1 = randomNum(1, 30);
-  const num2 = randomNum(1, 10);
+  const num1 = getRandomNum(1, 30);
+  const num2 = getRandomNum(1, 10);
   const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = calcAnswer(operator, num1, num2);
   return [question, correctAnswer];
