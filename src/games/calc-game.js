@@ -5,7 +5,7 @@ const explanation = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
-  const random = Math.round(Math.random() * operators.length - 1);
+  const random = Math.round(Math.random() * (operators.length - 1));
   return operators[random];
 };
 const calculateAnswer = (operator, num1, num2) => {
