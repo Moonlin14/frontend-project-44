@@ -10,7 +10,7 @@ const isEven = (num) => {
   return 'no';
 };
 
-const even = () => {
+const runEvenGame = () => {
   const number = getRandomNum(1, 100);
   const question = number.toString();
   const correctAnswer = isEven(number);
@@ -18,5 +18,5 @@ const even = () => {
 };
 
 export default () => {
-  run(explanation, even);
+  run(explanation, runEvenGame);
 };

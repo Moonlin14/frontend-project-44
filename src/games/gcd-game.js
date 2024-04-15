@@ -3,7 +3,7 @@ import getRandomNum from '../math.js';
 
 const explanation = 'Find the greatest common divisor of given numbers.';
 
-const lowestDivision = (num1, num2) => {
+const getLowestDivision = (num1, num2) => {
   const coll1 = [];
   const coll2 = [];
   let correctAnswer;
@@ -30,14 +30,14 @@ const lowestDivision = (num1, num2) => {
   return correctAnswer;
 };
 
-const gcd = () => {
+const runGcdGame = () => {
   const num1 = getRandomNum(1, 30);
   const num2 = getRandomNum(1, 30);
   const question = `${num1} ${num2}`;
-  const correctAnswer = `${lowestDivision(num1, num2)}`;
+  const correctAnswer = `${getLowestDivision(num1, num2)}`;
   return [question, correctAnswer];
 };
 
 export default () => {
-  run(explanation, gcd);
+  run(explanation, runGcdGame);
 };
